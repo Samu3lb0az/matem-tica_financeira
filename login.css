@@ -126,7 +126,7 @@ body{
   width: 300px;
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.764);
-  background-color: #f9f9f9c9;
+  background-color: #2C2C33;
   border-radius: 10px;
 }
 
@@ -174,4 +174,10 @@ button{
 
 button:hover{
   background-color: #0055b3;
+}
+
+#logo_login{
+  width: 100px;
+  margin-left: 90px;
+  margin-top: 20px;
 }

@@ -2,14 +2,13 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
-    background: -moz-linear-gradient(45deg, #6d33ff 0%, #443aff 29%, #21b3fc 66%, #5797fe 100%);
-    background: -webkit-linear-gradient(45deg, #3b65a3 0%,#1a1fa7 29%,#11aef2 66%,#7eb2ff 100%);
-    background: linear-gradient(45deg, #3868b1 0%,#5f65ff 29%,#7f6bff 66%,#4043ab 100%);
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
+  background: -moz-linear-gradient(45deg, #251D82 0%, #1c185c 29%, #141138 66%, #000000 100%);
+  background: -webkit-linear-gradient(45deg, #251D82 0%, #1c185c 29%, #141138 66%, #000000 100%);
+  background: linear-gradient(45deg, #251D82 0%, #1c185c 29%, #141138 66%, #000000 100%);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
-  /*min-height: calc(100vh - 2rem);*/
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -17,6 +16,7 @@ body {
   overflow: hidden;
   position: relative; 
 }
+
 
 body::before, 
 body::after {
